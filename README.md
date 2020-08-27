@@ -6,8 +6,8 @@ This repository contains Jupyter notebook assignments for Princeton's MAE345/549
 
 - All Jupyter notebooks are placed in the top level directory so they have access to all other Python modules and paths referenced in them are consistent.
 - All data provided / collected for use in assignments resides in `data`.
-- *Change:* The script `install_dependencies.sh` will install the necessary dependencies for running the software for the class on a fresh Ubuntu 18.04 installation. 
-- *Depends on python3, git, jupyter-notebook, numpy, ... (add installation instructions/shell script)*
+- **Change:** The script `install_dependencies.sh` will install the necessary dependencies for running the software for the class on a fresh Ubuntu 18.04 installation. 
+- **Depends on python3, git, jupyter-notebook, numpy, ... (add installation instructions/shell script)**
 
 ## Working on Assignments
 
