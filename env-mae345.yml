@@ -1,15 +1,15 @@
 name: mae345
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8
   - sympy
   - numpy
   - matplotlib
+  - notebook
   - jupyterlab
   - opencv
-  - jax
-  - jaxlib
   - widgetsnbextension
   - ipympl
   - nodejs
