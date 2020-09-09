@@ -15,13 +15,12 @@ To install the environment, do the following:
 
 1. Download and install [Anaconda](https://www.anaconda.com/products/individual).
 
-2. On Mac and Linux, open the terminal. Navigate to where this repository has been downloaded (entering `ls` will list the files and directories accessible from your current directory and `cd <name>` will change you to the `<name>` directory) and run `conda env create -f env-mae345.yml`. Accept any of the prompted changes. On Windows, do the same, use the Anaconda terminal application that should be present in your start menu (on Windows you need to use `dir` to list the contents of a directory instead of `ls`).
+2. On Mac and Linux, open the terminal. Navigate to where this repository has been downloaded (entering `ls` will list the files and directories accessible from your current directory and `cd <name>` will change you to the `<name>` directory) and run `conda env create -f env-mae345.yml`. Accept any of the prompted changes. On Windows, do the same, use the Anaconda Prompt application that should be present in your start menu (on Windows you need to use `dir` to list the contents of a directory instead of `ls`).
 
 ## Working on Assignments
 
-To work on an assignment, open the terminal (on Windows you need to use the same Anaconda terminal you used to install the environment) and navigate to the directory containing this repository. Enter the command `git pull`, which will update the code to the latest available by the instructors. Then, enter `jupyter notebook` or `jupyter lab`. These are two different interfaces for working with notebooks. The first is simpler, the second is newer and more featureful. Both commands will open the an interface in your web browser, where you will work on your Python assignments. Then click on `LabX.py`, where `X` is the assignment number and fill out the specified cells in the notebook. Submission instructions are detailed in the assignment PDF on Blackboard.
+To work on an assignment, open the terminal (on Windows you need to use the same Anaconda Prompt application you used to install the environment) and navigate to the directory containing this repository. Enter the command `conda activate mae345` to load the environment. Then run either `jupyter lab` or `jupyter notebook`. Both launch an interface for editing and running Python scripts in your browser. The former is a newer, more featureful interface while the latter is older and straightforward. Follow the instructions within the notebook to complete the assignment.
 
 ## Accessing New and Updated Assignments
 
-Throughout the course, we will be adding more assignments to this Git repository. The instructors may also need to issue corrections to labs while they are assigned. To update the codebase on your computer, run the command `git fetch --all
- && git reset --hard origin/master` in the MAE345-F2020 folder (again, to get there enter `cd MAE345-F2020`). **THIS COMMAND WILL OVERWRITE THE ASSIGNMENTS YOU HAVE IN THE FOLDER.** If you want to backup an assignment, copy it to your home directory with the command `cp <filename> ~/` first.
+As new assignments are released, either download the new files and place them in the folder containing the existing labs, or redownload this repository and replace the existing folder. You do not need to recreate the conda environment.
