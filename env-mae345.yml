@@ -1,9 +1,9 @@
-name: mae345
+name: mae345-py37
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.7
   - sympy
   - numpy
   - scipy
